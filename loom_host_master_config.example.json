@@ -1,0 +1,21 @@
+{
+  "enable_udp_listener": true,
+  "ts_reply_timeout_seconds": 2.0,
+  "ts_connect_timeout_seconds": 3.0,
+  "enable_http_dashboard": true,
+  "http_host": "127.0.0.1",
+  "http_port": 18080,
+  "sqlite_db_path": "loom_events.db",
+  "looms": [
+    {
+      "name": "2fast-loom-01",
+      "ip": "169.254.4.101",
+      "ts_port": 13000,
+      "supports_qt5_full_status": true,
+      "enabled": true,
+      "declarations": {
+        "565": "Employee ID: _____ Production Plan ID: _____ Yarn Package Number: _____"
+      }
+    }
+  ]
+}
